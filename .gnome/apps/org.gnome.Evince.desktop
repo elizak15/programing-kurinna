@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Document Viewer
+NoDisplay=true
+Comment=View multi-page documents
+Icon=org.gnome.Evince
+TryExec=evince
+Exec=evince %U
+Actions=
+MimeType=application/pdf;application/x-bzpdf;application/x-gzpdf;application/x-xzpdf;application/x-ext-pdf;application/postscript;application/x-bzpostscript;application/x-gzpostscript;image/x-eps;image/x-bzeps;image/x-gzeps;application/x-ext-ps;application/x-ext-eps;application/illustrator;application/x-dvi;application/x-bzdvi;application/x-gzdvi;application/x-ext-dvi;image/vnd.djvu+multipage;application/x-ext-djv;application/x-ext-djvu;image/tiff;application/x-cbr;application/x-cbz;application/x-cb7;application/x-cbt;application/x-ext-cbr;application/x-ext-cbz;application/x-ext-cb7;application/x-ext-cbt;application/vnd.comicbook+zip;application/vnd.comicbook-rar;application/oxps;application/vnd.ms-xpsdocument;
+Categories=2DGraphics;GNOME;GTK;Graphics;Office;VectorGraphics;Viewer;
+Keywords=pdf;ps;postscript;dvi;xps;djvu;tiff;document;presentation;viewer;evince;
+StartupNotify=true
+OnlyShowIn=Old;

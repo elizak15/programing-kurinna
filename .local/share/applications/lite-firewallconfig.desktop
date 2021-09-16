@@ -1,0 +1,14 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Firewall Config
+GenericName=Firewall Config
+X-XfceSettingsName=Firewall Config
+Comment=Enable or Disable FirewallD
+Type=Application
+Exec=pkexec lite-firewallconfig
+Icon=firewall-config
+Terminal=false
+Categories=DesktopSettings;GTK;Settings;X-XFCE-SettingsDialog;XFCE;
+StartupNotify=true
+OnlyShowIn=XFCE;
+NoDisplay=false

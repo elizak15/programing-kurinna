@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=Browse your music collection
+Terminal=false
+Name=Music
+Exec=exo-open Music
+Type=Application
+Icon=folder-music

@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Lite Widget
+GenericName=Lite Widget
+X-XfceSettingsName=Lite Widget
+Comment=Enable or Disable Lite Widget
+Type=Application
+Exec=lite-widget
+Icon=liteicon
+Terminal=false
+Categories=DesktopSettings;GTK;Screensavers;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;XFCE;
+StartupNotify=true
+OnlyShowIn=XFCE;
+NoDisplay=false
+OnlyShowIn=Old;

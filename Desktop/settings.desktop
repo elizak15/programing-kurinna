@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Control Panel
+Comment=Control Panel Desktop Icon
+Type=Application
+Exec=xfce4-settings-manager
+Icon=preferences-desktop

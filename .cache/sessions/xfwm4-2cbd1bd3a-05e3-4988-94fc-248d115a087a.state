@@ -1,0 +1,63 @@
+[CLIENT] 0x140474f
+  [CLIENT_ID] 20b9bd3c8-b817-4bc8-bf91-3e8e12330f2f
+  [CLIENT_LEADER] 0x1400001
+  [WINDOW_ROLE] Thunar-1631130460-1634918916
+  [RES_NAME] Thunar
+  [RES_CLASS] Thunar
+  [WM_NAME] eliza - Файловый менеджер
+  [WM_COMMAND] (1) "Thunar"
+  [GEOMETRY] (2,190,983,545)
+  [GEOMETRY-MAXIMIZED] (2,190,983,545)
+  [SCREEN] 0
+  [DESK] 1
+  [FLAGS] 0x10000
+[CLIENT] 0x3000003
+  [CLIENT_ID] 29fde0661-c79c-4e33-a37e-f92dee2316e1
+  [CLIENT_LEADER] 0x3000001
+  [WINDOW_ROLE] xfce4-terminal-1631116028-3773406697
+  [RES_NAME] xfce4-terminal
+  [RES_CLASS] Xfce4-terminal
+  [WM_NAME] Linux Lite Terminal - 
+  [WM_COMMAND] (1) "xfce4-terminal"
+  [GEOMETRY] (0,25,1360,712)
+  [GEOMETRY-MAXIMIZED] (541,244,817,491)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x300
+[CLIENT] 0x300024d
+  [CLIENT_ID] 29fde0661-c79c-4e33-a37e-f92dee2316e1
+  [CLIENT_LEADER] 0x3000001
+  [WINDOW_ROLE] xfce4-terminal-1631116272-1915852976
+  [RES_NAME] xfce4-terminal
+  [RES_CLASS] Xfce4-terminal
+  [WM_NAME] Linux Lite Terminal - 
+  [WM_COMMAND] (1) "xfce4-terminal"
+  [GEOMETRY] (2,244,817,491)
+  [GEOMETRY-MAXIMIZED] (2,244,817,491)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x0
+[CLIENT] 0x1400007
+  [CLIENT_ID] 20b9bd3c8-b817-4bc8-bf91-3e8e12330f2f
+  [CLIENT_LEADER] 0x1400001
+  [WINDOW_ROLE] Thunar-1631116009-3947673711
+  [RES_NAME] Thunar
+  [RES_CLASS] Thunar
+  [WM_NAME] lab00 - Файловый менеджер
+  [WM_COMMAND] (1) "Thunar"
+  [GEOMETRY] (2,25,983,545)
+  [GEOMETRY-MAXIMIZED] (2,25,983,545)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x2c00003
+  [CLIENT_LEADER] 0x2c00001
+  [RES_NAME] lite-welcome
+  [RES_CLASS] Lite-welcome
+  [WM_NAME] Lite Welcome
+  [WM_COMMAND] (1) "lite-welcome"
+  [GEOMETRY] (298,73,768,640)
+  [GEOMETRY-MAXIMIZED] (298,73,768,640)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x0

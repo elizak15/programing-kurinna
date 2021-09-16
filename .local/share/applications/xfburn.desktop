@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=CD/DVD Burner
+Comment=CD and DVD burning application
+Icon=media-cdrom
+TryExec=xfburn
+Exec=xfburn
+Actions=BurnImage;
+MimeType=application/x-cd-image;x-content/audio-cdda;x-content/blank-cd;
+Categories=Archiving;AudioVideo;DiscBurning;GTK;X-XFCE;
+StartupNotify=true
+
+[Desktop Action BurnImage]
+Name=Burn Image (xfburn)
+Exec=xfburn -i %f

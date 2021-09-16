@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Lite Desktop
+GenericName=Lite Desktop
+X-XfceSettingsName=Lite Desktop
+Comment=Select or deselect desktop icons
+Type=Application
+Exec=lite-desktop
+Icon=litedesktop
+Terminal=false
+Categories=DesktopSettings;GTK;Screensavers;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;XFCE;
+StartupNotify=true
+OnlyShowIn=XFCE;
+NoDisplay=false
+OnlyShowIn=Old;

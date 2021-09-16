@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Lite Updates Notify
+GenericName=Lite Updates Notify
+Comment=Set Updates notification frequency
+Icon=liteupdatesnotify
+OnlyShowIn=XFCE;
+Exec=pkexec lite-updatesnotify
+Actions=
+Categories=DesktopSettings;GTK;Settings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;XFCE;
+StartupNotify=true
+OnlyShowIn=Old;

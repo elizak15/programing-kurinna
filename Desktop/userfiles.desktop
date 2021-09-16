@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=User Files
+Comment=User Files Desktop Icon
+Type=Application
+Exec=exo-open --launch FileManager %u
+Icon=user-home

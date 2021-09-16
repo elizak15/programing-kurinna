@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=GDebi Package Installer
+GenericName=Package Installer
+NoDisplay=true
+Comment=Install and view software packages
+Icon=gnome-mime-application-x-deb
+NotShowIn=KDE;
+Exec=llexec gdebi-gtk %f
+Actions=
+MimeType=application/vnd.debian.binary-package;
+Categories=System;
+Keywords=package;apt;dpkg;install;
+StartupNotify=true
+OnlyShowIn=Old;

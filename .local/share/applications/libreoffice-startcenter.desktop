@@ -1,0 +1,39 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=LibreOffice
+GenericName=Office
+NoDisplay=true
+Comment=The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation.
+Icon=libreoffice-startcenter
+NotShowIn=GNOME;
+Exec=libreoffice %U
+Actions=Writer;Calc;Impress;Draw;Base;Math;
+MimeType=application/vnd.openofficeorg.extension;x-scheme-handler/vnd.libreoffice.cmis;
+Categories=Office;X-MandrivaLinux-Office-Other;X-Red-Hat-Base;X-SuSE-Core-Office;
+StartupNotify=true
+StartupWMClass=libreoffice-startcenter
+
+[Desktop Action Writer]
+Name=Writer
+Exec=libreoffice --writer
+
+[Desktop Action Calc]
+Name=Calc
+Exec=libreoffice --calc
+
+[Desktop Action Impress]
+Name=Impress
+Exec=libreoffice --impress
+
+[Desktop Action Draw]
+Name=Draw
+Exec=libreoffice --draw
+
+[Desktop Action Base]
+Name=Base
+Exec=libreoffice --base
+
+[Desktop Action Math]
+Name=Math
+Exec=libreoffice --math

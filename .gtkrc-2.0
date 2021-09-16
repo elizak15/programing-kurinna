@@ -1,0 +1,4 @@
+gtk-menu-popdown-delay = 0
+gtk-menu-bar-popup-delay = 0
+gtk-enable-animations = 0
+gtk-timeout-expand = 0

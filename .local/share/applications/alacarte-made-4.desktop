@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=Browse your downloads
+Terminal=false
+Name=Downloads
+Exec=exo-open Downloads
+Type=Application
+Icon=folder-download

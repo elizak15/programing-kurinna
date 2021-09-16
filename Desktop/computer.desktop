@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=This PC
+Comment=This PC Desktop Icon
+Type=Application
+Exec=exo-open --launch FileManager computer:///
+Icon=computer

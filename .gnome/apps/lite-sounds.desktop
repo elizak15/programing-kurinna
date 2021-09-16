@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Lite Sounds
+GenericName=Lite Sounds
+X-XfceSettingsName=Lite Sounds
+Comment=Manage System Sounds in Linux Lite
+Type=Application
+Exec=lite-sounds
+Icon=litesoundsglob
+Terminal=false
+Categories=XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+StartupNotify=true
+OnlyShowIn=XFCE;
+NoDisplay=false
+OnlyShowIn=Old;

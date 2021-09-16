@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Package Update Indicator Preferences
+GenericName=Package Update Indicator Preferences
+NoDisplay=true
+Comment=Edit the Preferences for Package Update Indicator
+Icon=preferences-other
+NotShowIn=GNOME;
+Exec=package-update-indicator-prefs
+Actions=
+Categories=GTK;PackageManager;Settings;
+Keywords=updates;preferences;

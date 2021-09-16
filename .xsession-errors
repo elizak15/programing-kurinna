@@ -1,0 +1,247 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/eliza/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xfce:/etc/xdg
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting LANGUAGE=ru_UA:ru
+dbus-update-activation-environment: setting MANDATORY_PATH=/usr/share/gconf/xfce.mandatory.path
+dbus-update-activation-environment: setting DESKTOP_SESSION=xfce
+dbus-update-activation-environment: setting GTK_MODULES=:canberra-gtk-module
+dbus-update-activation-environment: setting PWD=/home/eliza
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xfce
+dbus-update-activation-environment: setting LOGNAME=eliza
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/eliza/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/eliza
+dbus-update-activation-environment: setting GDM_LANG=ru
+dbus-update-activation-environment: setting HOME=/home/eliza
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LANG=ru_UA.UTF-8
+dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=XFCE
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting DEFAULTS_PATH=/usr/share/gconf/xfce.default.path
+dbus-update-activation-environment: setting USER=eliza
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting GDMSESSION=xfce
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+xfce4-session-Message: 15:08:34.911: SSH authentication agent is already running
+gpg-agent[1440]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:1398): xfce4-session-WARNING **: 15:08:34.918: gpg-agent returned no PID in the variables
+
+(xfce4-session:1398): xfce4-session-WARNING **: 15:08:34.921: xfsm_manager_load_session: Something wrong with /home/eliza/.cache/sessions/xfce4-session-eliza15:0, Does it exist? Permissions issue?
+
+(xfwm4:1443): xfwm4-WARNING **: 15:08:35.331: Unsupported GL renderer (llvmpipe (LLVM 12.0.0, 128 bits)).
+
+(wrapper-2.0:1472): Gtk-WARNING **: 15:08:37.857: gtk_widget_size_allocate(): attempt to allocate widget with width -1 and height 28
+
+(wrapper-2.0:1470): Gtk-WARNING **: 15:08:37.969: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1474): Gtk-WARNING **: 15:08:38.026: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1473): Gtk-WARNING **: 15:08:38.727: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner PulseaudioButton)
+Playing WAVE '/usr/share/sounds/Lite/stereo/startupsound.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
+
+(polkit-gnome-authentication-agent-1:1501): GLib-CRITICAL **: 15:08:28.871: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1501): polkit-gnome-1-WARNING **: 15:08:28.879: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (xfce4-screensaver:1505): WARNING **: 15:08:29.013: в этом сеансе уже запущен хранитель экрана
+
+(package-update-indicator:1503): Gdk-CRITICAL **: 15:08:29.806: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(nm-applet:1510): Gdk-CRITICAL **: 15:08:29.907: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+
+(wrapper-2.0:1470): Gdk-CRITICAL **: 15:43:06.058: Window 0x564a72755280 has not been made visible in GdkSeatGrabPrepareFunc
+
+(Thunar:1465): thunarx-CRITICAL **: 15:48:53.619: thunarx_menu_provider_get_folder_menu_items: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1465): thunarx-CRITICAL **: 15:48:53.620: thunarx_menu_provider_get_folder_menu_items: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1465): thunarx-CRITICAL **: 15:48:53.620: thunarx_menu_provider_get_folder_menu_items: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1465): thunar-WARNING **: 15:48:53.634: Content type loading failed for programing-kurinna: Error when getting information for file “/home/eliza/lab1/programing-kurinna”: No such file or directory
+
+(Thunar:1465): GLib-GObject-WARNING **: 15:50:33.463: invalid uninstantiatable type '-g-type-private--GTypeFlags' in cast to 'ThunarThumbnailer'
+Failed to register: Timeout was reached
+Failed to register: Timeout was reached
+Failed to register: Timeout was reached
+Failed to register: Timeout was reached
+Failed to register: Timeout was reached
+Failed to register: Timeout was reached
+Failed to register: Timeout was reached
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 16:09:20.724: failed to check for updates: E: Файл Release для http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease пока не действителен (недостоверный ещё 5ч 15мин 37с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease пока не действителен (недостоверный ещё 6ч 0мин 7с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 5ч 16мин 46с). Обновление этого репозитория производиться не будет.
+
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 16:09:20.724: failed to get transaction results: E: Файл Release для http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease пока не действителен (недостоверный ещё 5ч 15мин 37с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease пока не действителен (недостоверный ещё 6ч 0мин 7с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 5ч 16мин 46с). Обновление этого репозитория производиться не будет.
+
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 17:09:27.978: failed to check for updates: E: Файл Release для http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease пока не действителен (недостоверный ещё 17ч 18мин 19с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease пока не действителен (недостоверный ещё 17ч 18мин 43с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 17ч 19мин 20с). Обновление этого репозитория производиться не будет.
+
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 17:09:27.978: failed to get transaction results: E: Файл Release для http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease пока не действителен (недостоверный ещё 17ч 18мин 19с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease пока не действителен (недостоверный ещё 17ч 18мин 43с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 17ч 19мин 20с). Обновление этого репозитория производиться не будет.
+
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 18:09:34.202: failed to check for updates: E: Файл Release для http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease пока не действителен (недостоверный ещё 16ч 18мин 13с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease пока не действителен (недостоверный ещё 16ч 41мин 12с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 16ч 19мин 13с). Обновление этого репозитория производиться не будет.
+
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 18:09:34.202: failed to get transaction results: E: Файл Release для http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease пока не действителен (недостоверный ещё 16ч 18мин 13с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease пока не действителен (недостоверный ещё 16ч 41мин 12с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 16ч 19мин 13с). Обновление этого репозитория производиться не будет.
+
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 19:10:36.490: failed to check for updates: E: http://us.archive.ubuntu.com/ubuntu focal InRelease is not (yet) available (Временная ошибка при разрешении «us.archive.ubuntu.com»)
+E: http://security.ubuntu.com/ubuntu focal-security InRelease is not (yet) available (Временная ошибка при разрешении «security.ubuntu.com»)
+E: http://repo.linuxliteos.com/linuxlite emerald InRelease is not (yet) available (Временная ошибка при разрешении «repo.linuxliteos.com»)
+E: http://us.archive.ubuntu.com/ubuntu focal-updates InRelease is not (yet) available (Временная ошибка при разрешении «us.archive.ubuntu.com»)
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 15ч 18мин 11с). Обновление этого репозитория производиться не будет.
+
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 19:10:36.490: failed to get transaction results: E: http://us.archive.ubuntu.com/ubuntu focal InRelease is not (yet) available (Временная ошибка при разрешении «us.archive.ubuntu.com»)
+E: http://security.ubuntu.com/ubuntu focal-security InRelease is not (yet) available (Временная ошибка при разрешении «security.ubuntu.com»)
+E: http://repo.linuxliteos.com/linuxlite emerald InRelease is not (yet) available (Временная ошибка при разрешении «repo.linuxliteos.com»)
+E: http://us.archive.ubuntu.com/ubuntu focal-updates InRelease is not (yet) available (Временная ошибка при разрешении «us.archive.ubuntu.com»)
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 15ч 18мин 11с). Обновление этого репозитория производиться не будет.
+
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 20:10:55.618: failed to check for updates: E: Файл Release для http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease пока не действителен (недостоверный ещё 16ч 36мин 30с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease пока не действителен (недостоверный ещё 16ч 36мин 54с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 16ч 37мин 33с). Обновление этого репозитория производиться не будет.
+
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 20:10:55.619: failed to get transaction results: E: Файл Release для http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease пока не действителен (недостоверный ещё 16ч 36мин 30с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease пока не действителен (недостоверный ещё 16ч 36мин 54с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 16ч 37мин 33с). Обновление этого репозитория производиться не будет.
+
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 20:30:27.632: failed to check for updates: E: Файл Release для http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease пока не действителен (недостоверный ещё 1д 22ч 16мин 44с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease пока не действителен (недостоверный ещё 1д 22ч 17мин 10с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 1д 22ч 17мин 49с). Обновление этого репозитория производиться не будет.
+
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 20:30:27.632: failed to get transaction results: E: Файл Release для http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease пока не действителен (недостоверный ещё 1д 22ч 16мин 44с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease пока не действителен (недостоверный ещё 1д 22ч 17мин 10с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 1д 22ч 17мин 49с). Обновление этого репозитория производиться не будет.
+
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 21:30:34.281: failed to check for updates: E: Файл Release для http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease пока не действителен (недостоверный ещё 1д 23ч 29мин 5с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease пока не действителен (недостоверный ещё 1д 23ч 29мин 29с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 1д 23ч 30мин 12с). Обновление этого репозитория производиться не будет.
+
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 21:30:34.281: failed to get transaction results: E: Файл Release для http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease пока не действителен (недостоверный ещё 1д 23ч 29мин 5с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease пока не действителен (недостоверный ещё 1д 23ч 29мин 29с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 1д 23ч 30мин 12с). Обновление этого репозитория производиться не будет.
+
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 22:30:42.188: failed to check for updates: E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease пока не действителен (недостоверный ещё 2д 0ч 28мин 34с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease пока не действителен (недостоверный ещё 2д 0ч 28мин 7с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 2д 0ч 29мин 7с). Обновление этого репозитория производиться не будет.
+
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 22:30:42.188: failed to get transaction results: E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease пока не действителен (недостоверный ещё 2д 0ч 28мин 34с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease пока не действителен (недостоверный ещё 2д 0ч 28мин 7с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 2д 0ч 29мин 7с). Обновление этого репозитория производиться не будет.
+
+
+(Thunar:4352): GLib-GObject-WARNING **: 23:22:10.415: invalid uninstantiatable type '(null)' in cast to 'GObject'
+
+(Thunar:4352): GLib-GObject-CRITICAL **: 23:22:10.416: g_object_set_qdata: assertion 'G_IS_OBJECT (object)' failed
+
+(Thunar:4352): GLib-GObject-WARNING **: 23:22:27.388: invalid uninstantiatable type '<invalid>' in cast to 'GObject'
+
+(Thunar:4352): GLib-GObject-CRITICAL **: 23:22:27.388: g_object_set_qdata: assertion 'G_IS_OBJECT (object)' failed
+
+(Thunar:4352): GLib-GObject-WARNING **: 23:22:46.799: invalid unclassed pointer in cast to 'GObject'
+
+(Thunar:4352): GLib-GObject-CRITICAL **: 23:22:46.799: g_object_set_qdata: assertion 'G_IS_OBJECT (object)' failed
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+(Thunar:4352): GLib-GObject-WARNING **: 23:30:15.815: invalid uninstantiatable type '<invalid>' in cast to 'GObject'
+
+(Thunar:4352): GLib-GObject-CRITICAL **: 23:30:15.817: g_object_set_qdata: assertion 'G_IS_OBJECT (object)' failed
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 23:30:51.700: failed to check for updates: E: Файл Release для http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease пока не действителен (недостоверный ещё 2д 14ч 30мин 55с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease пока не действителен (недостоверный ещё 2д 14ч 31мин 21с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 2д 14ч 31мин 59с). Обновление этого репозитория производиться не будет.
+
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 23:30:51.700: failed to get transaction results: E: Файл Release для http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease пока не действителен (недостоверный ещё 2д 14ч 30мин 55с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease пока не действителен (недостоверный ещё 2д 14ч 31мин 21с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 2д 14ч 31мин 59с). Обновление этого репозитория производиться не будет.
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+(Thunar:4352): GLib-GObject-WARNING **: 00:09:08.199: invalid uninstantiatable type '<invalid>' in cast to 'GObject'
+
+(Thunar:4352): GLib-GObject-CRITICAL **: 00:09:08.200: g_object_set_qdata: assertion 'G_IS_OBJECT (object)' failed
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 00:31:01.288: failed to check for updates: E: Файл Release для http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease пока не действителен (недостоверный ещё 2д 13ч 30мин 45с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease пока не действителен (недостоверный ещё 2д 13ч 31мин 11с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 2д 13ч 31мин 49с). Обновление этого репозитория производиться не будет.
+
+
+(package-update-indicator:1503): package-update-indicator-WARNING **: 00:31:01.288: failed to get transaction results: E: Файл Release для http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease пока не действителен (недостоверный ещё 2д 13ч 30мин 45с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease пока не действителен (недостоверный ещё 2д 13ч 31мин 11с). Обновление этого репозитория производиться не будет.
+E: Файл Release для http://us.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease пока не действителен (недостоверный ещё 2д 13ч 31мин 49с). Обновление этого репозитория производиться не будет.
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+(xfce4-panel:1452): xfce4-panel-CRITICAL **: 00:47:16.850: panel-window.c:3086 (panel_window_thaw_autohide): expression 'window->autohide_block > 0' failed.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=Browse your videos
+Terminal=false
+Name=Videos
+Exec=exo-open Videos
+Type=Application
+Icon=folder-videos

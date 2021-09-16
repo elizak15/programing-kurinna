@@ -1,0 +1,14 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Lite Welcome
+GenericName=Lite Welcome
+X-XfceSettingsName=Lite Welcome
+Comment=Linux Lite Welcome Screen
+Type=Application
+Exec=lite-welcome
+Icon=litewelcome
+Terminal=false
+Categories=DesktopSettings;GTK;Settings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;XFCE;
+StartupNotify=false
+OnlyShowIn=XFCE;
+NoDisplay=false

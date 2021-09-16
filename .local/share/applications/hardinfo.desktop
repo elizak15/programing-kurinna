@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=System Information
+Name[pt_BR]=Informações e Testes do Sistema
+Exec=hardinfo
+Icon=applications-system
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=System;
+
+Comment=Information about your hardware

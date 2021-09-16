@@ -1,0 +1,13 @@
+[CLIENT] 0x2800003
+  [CLIENT_ID] 20d5f2cbe-ef8f-4602-bcff-a7f74d605203
+  [CLIENT_LEADER] 0x2800001
+  [WINDOW_ROLE] xfce4-terminal-1631026976-3825188445
+  [RES_NAME] xfce4-terminal
+  [RES_CLASS] Xfce4-terminal
+  [WM_NAME] Linux Lite Terminal - 
+  [WM_COMMAND] (1) "xfce4-terminal"
+  [GEOMETRY] (2,25,817,491)
+  [GEOMETRY-MAXIMIZED] (2,25,817,491)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x0

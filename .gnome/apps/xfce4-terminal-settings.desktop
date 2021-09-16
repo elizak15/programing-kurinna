@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Xfce Terminal
+NoDisplay=true
+Comment=Configure Xfce Terminal
+Icon=utilities-terminal
+NotShowIn=GNOME;
+Exec=xfce4-terminal --preferences
+Actions=
+Categories=DesktopSettings;GTK;Settings;X-XFCE-PersonalSettings;X-XFCE-SettingsDialog;XFCE;
+StartupNotify=true
+OnlyShowIn=Old;

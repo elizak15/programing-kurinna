@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Thunar File Manager
+GenericName=File Manager
+NoDisplay=true
+Comment=Browse the filesystem with the file manager
+Icon=Thunar
+Exec=thunar %F
+Actions=
+MimeType=inode/directory;
+Categories=Core;FileManager;FileTools;GTK;Utility;
+StartupNotify=true

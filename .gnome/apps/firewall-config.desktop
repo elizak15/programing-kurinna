@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Firewall
+Comment=Firewall Configuration
+Icon=firewall-config
+Exec=/usr/bin/firewall-config
+Actions=
+Categories=Screensavers;Security;
+Keywords=firewall;network;security;iptables;netfilter;
+StartupNotify=true
+OnlyShowIn=Old;

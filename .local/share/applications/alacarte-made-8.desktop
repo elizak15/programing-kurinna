@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=A place to share your files
+Terminal=false
+Name=Public
+Exec=exo-open Public
+Type=Application
+Icon=folder-publicshare

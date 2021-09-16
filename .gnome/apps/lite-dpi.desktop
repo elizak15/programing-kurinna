@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=HiDPI Settings
+GenericName=HiDPI Settings
+X-XfceSettingsName=HiDPI Settings
+Comment=Easily change desktop scaling
+Type=Application
+Exec=lite-dpi
+Icon=preferences-desktop-display
+Terminal=false
+Categories=DesktopSettings;GTK;Screensavers;X-XFCE-HardwareSettings;X-XFCE-SettingsDialog;XFCE;
+StartupNotify=true
+OnlyShowIn=XFCE;
+NoDisplay=false
+OnlyShowIn=Old;

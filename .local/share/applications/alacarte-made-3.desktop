@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=Browse your documents
+Terminal=false
+Name=Documents
+Exec=exo-open Documents
+Type=Application
+Icon=folder-documents

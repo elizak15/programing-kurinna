@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Image Viewer
+GenericName=Photo Manager
+Comment=Manage your images
+Icon=shotwell
+Exec=shotwell %U
+Actions=
+MimeType=x-content/image-dcf;
+Categories=GNOME;GTK;Graphics;Photography;
+Keywords=album;camera;cameras;crop;edit;enhance;export;gallery;image;images;import;organize;photo;photographs;photos;picture;pictures;photography;print;publish;rotate;share;tags;video;facebook;flickr;picasa;youtube;piwigo;

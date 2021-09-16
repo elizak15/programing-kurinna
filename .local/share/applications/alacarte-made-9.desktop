@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=Browse your templates
+Terminal=false
+Name=Templates
+Exec=exo-open Templates
+Type=Application
+Icon=folder-templates

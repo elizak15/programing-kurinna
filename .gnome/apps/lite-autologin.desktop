@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Lite Auto Login
+GenericName=Lite Auto Login
+X-XfceSettingsName=Lite Auto Login
+Comment=Enable or Disable Auto Login in Linux Lite
+Type=Application
+Exec=lite-autologin
+Icon=liteautologin
+Terminal=false
+Categories=DesktopSettings;GTK;Screensavers;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;XFCE;
+StartupNotify=true
+OnlyShowIn=XFCE;
+NoDisplay=false
+OnlyShowIn=Old;

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=Browse your Home folder
+Terminal=false
+Name=Home
+Exec=exo-open --launch FileManager %u
+Type=Application
+Icon=user-home

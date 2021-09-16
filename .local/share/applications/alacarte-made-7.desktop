@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=Your entire file system directory
+Terminal=false
+Name=File System
+Exec=exo-open /
+Type=Application
+Icon=drive-harddisk

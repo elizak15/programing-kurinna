@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Network
+Comment=Network Desktop Icon
+Type=Application
+Exec=exo-open --launch FileManager network:///
+Icon=network-workgroup

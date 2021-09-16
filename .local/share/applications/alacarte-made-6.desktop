@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=Browse your images
+Terminal=false
+Name=Pictures
+Exec=exo-open Pictures
+Type=Application
+Icon=folder-pictures

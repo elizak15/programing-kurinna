@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Qt 4 Settings
+NoDisplay=true
+Icon=qtconfig-qt4
+Exec=/usr/bin/qtconfig-qt4
+Actions=
+Categories=Qt;Settings;
