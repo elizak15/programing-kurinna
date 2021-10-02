@@ -1,0 +1,344 @@
+Лабораторна робота № 1 . Вступ до програмування. Освоєння командної строки Linux
+
+-Курінна Єлизавета Ігорівна гр.КІТ – 121г;
+
+
+
+1.2 Загальне завдання
+
+
+
+Установити середовище для подальшої роботи з предмету “Програмування” та ознайомитися з його командами.
+
+
+
+1.3 Індивідуальне завдання
+
+
+
+Самостійно ознайомитися з функціями, які не прописані в інструкції до лабораторної роботи.
+                                             2 ОПИС РОБОТИ
+
+2.1 Завантаження та встановлення Linux
+
+Спочатку я скачала та інсталювала додаток VirtualBox, який дозволяє встановити віртуальну операційну систему Linux та працювати з нею на OC Windows.
+Наступним кроком було пошук та завантаження образу Linux системи. Так як мій ноутбук «слабий» - я вирішила встановити Linux Lite.
+
+2.2 Робота з Linux Lite
+
+Почала з того, що встановила програмні додатки за допомогою програмного менеджера apt-get:
+apt-get install git
+apt-get install gcc
+apt-get install clang
+apt-get install clang-format
+apt-get install clang-tidy
+apt-get install tree
+apt-get install make
+apt-get install cppcheck
+
+За допомогою системи контролю версіями git та git clone виконала копіювання репозиторія:
+git-clone https://github.com/davydov-vyacheslav/sample_project
+
+2.3 Утиліта tree
+
+Ця команда допомогає дізнатися ієрархію каталогів і файлів. Щоб нею скористатися достатньо в терміналі написали:
+tree
+•	Desktop 
+	 computer.desktop 
+	helpmanual.desktop 
+	network.desktop
+	settings.desktop 
+	userfiles.desktop 
+•	 sample_project 
+	 lab00 
+o	doc
+	assets
+	algorithm-generateAnimal.png 
+	algorithm-main.png 
+	algorithm-showAnimals.png  
+	animal-fields.png  
+	lab00.docx 
+	lab00.md 
+	lab00.pdf  
+o	src 
+	lib.c 
+	lib.c.dump 
+	lib.h 
+	main.c 
+	main.c.dump 
+o	test 
+	test.c  
+	test.c.dump 
+o	Doxyfile
+o	Makefile 
+o	README.md 
+	 lab03-sample  
+o	doc 
+o	lab03.txt 
+	 README.md 
+•	Видео 
+•	Документы 
+•	Загрузки 
+•	Изображения 
+•	Музыка 
+•	Общедоступные
+•	Рабочий стол 
+•	Шаблоны 
+•	18 directories, 27 files
+
+
+2.4 Компіляція 
+
+
+-Для збірки проекту я перейшла до скопійованого каталогу:
+ cd sample_project
+-Потім перейшла до каталогу, де знаходиться Makefile 
+cd lab00
+-Перевірила за допомогою команди ls
+ls
+doc Doxyfile Makefile README.md src test
+- Виконала у командної строці команду: 
+make clean prep compile check
+і вдосконалася, що помилок немає:
+3/3 files checked 100% done
+-За допомогою утиліти tree знайшла створені файли:
+	Desktop 
+	 computer.desktop 
+	helpmanual.desktop 
+	network.desktop
+	settings.desktop 
+	userfiles.desktop 
+        sample_project 
+        lab00 
+	dist
+	main.bin
+	test.bin
+	doc
+	assets
+	algorithm-generateAnimal.png 
+	algorithm-main.png 
+	algorithm-showAnimals.png  
+	animal-fields.png  
+	lab00.docx 
+	lab00.md 
+	lab00.pdf  
+	src 
+	lib.c 
+	lib.c.dump 
+	lib.h 
+	main.c 
+	main.c.dump 
+	test 
+	test.c  
+	test.c.dump 
+	Doxyfile
+	Makefile 
+	README.md 
+	 lab03-sample  
+	doc 
+	lab03.txt 
+	 README.md 
+	Видео 
+	Документы 
+	Загрузки 
+	Изображения 
+	Музыка 
+	Общедоступные
+	Рабочий стол 
+	Шаблоны 
+	18 directories, 27 files
+-Перейшла до каталогу dist:
+cd dist
+-Виконала отримані бінарні файли
+./main.bin
+Інформація про тварину №01: Свиня: зріст = 97 см, маса = 118 гр. 
+Інформація про тварину №02: Кіт: зріст = 21 см, маса = 17 гр.
+Інформація про тварину №03: Корова: зріст = 120 см, маса = 91 гр.
+Інформація про тварину №04: Кіт: зріст = 23 см, маса = 46 гр.
+Інформація про тварину №05: Собака: зріст = 74 см, маса = 2 гр. 
+Інформація про тварину №06: Кіт: зріст = 20 см, маса = 94 гр. 
+Інформація про тварину №07: Кіт: зріст = 36 см, маса = 44 гр.
+Інформація про тварину №08: Кіт: зріст = 71 см, маса = 97 гр.
+Інформація про тварину №09: Свиня: зріст = 115 см, маса = 126 гр.
+Інформація про тварину №10: Корова: зріст = 111 см, маса = 114 гр.
+./test.bin
+Running test test_get_animal_by_name ... 
+Running test test_generate_animal ... 
+Congratulations! All tests succeed!
+
+
+2.5. Зміни в коді
+
+
+-Я хочу змінити в lib.h так код, щоб генерувало інформацію лише про 5 тварин. Для цього повернулася до каталогу src:
+cd ..
+ і в терміналі прописала команду:
+nano lib.h
+-Перекомпілювала проект за допомогою команди:
+make clean prep compile check
+3/3 files checked 100% done
+-Також щоб побачити зміни в коді можна було прописати команду:
+cat lib.h
+#include <stdint.h> 
+#include <stdio.h> 
+#include <stdlib.h> 
+#include <time.h>
+
+ /**
+ * Кількість тварин у масиві
+ */
+
+ #define ANIMAL_COUNT 5
+
+ /**
+ * Тип тварини 
+*/ enum animal_type { 
+PIG, /**< Свиня */
+COW, /**< Корова */ 
+DOG, /**< Собака */
+CAT, /**< Кіт */ 
+ANIMAL_TYPE_COUNT /**< Кількість тварин */
+ };
+
+ /**
+ * Структура «Тварина»
+ */
+ struct animal {
+ enum animal_type type; /**< тип тварини */
+ unsigned int height; /**< ріст тварини, см */
+ unsigned int weight; /**< маса тварини, грам */
+ };
+/**
+ * Отримання текстового представлення значення типу тварини
+ * @param type значення перерахувааня типу тварини 
+* @return текстове репрезентування типу 
+*/
+ const char 
+*get_animal_type_name(enum animal_type type); 
+/**
+ * Створення даних про тварину. 
+*
+ * Функція генерує та повертає тварину з випадковими значеннями її полів 
+* @param entity структура {@link animal} для заповнення
+ */ 
+void generate_animal(struct animal *entity);
+ /** 
+* Вивід до екрану вмісту масиву з даними про тварини. 
+*
+ * Функція у циклу виводить дані на екран про кожний елемент масиву
+ * з даними про тварину у наступному форматі:
+ * "Тип_тварини: зріст = ріст_тварини см, маса = маса_тварини гр."
+ * @param animals масив з даними о тваринах, які необхідно вивести на екран
+ * @param count кількість тварин у переданому масиві 
+*/
+ void show_animals(struct animal animals[], unsigned int count); 
+#endif
+
+-Щоб продемонструвати зміни – потрібно зайти в каталог dist і виконати бінарний файл main.bin
+cd dist
+./main.bin
+Інформація про тварину №01: Свиня: зріст = 84 см, маса = 91 гр.
+Інформація про тварину №02: Кіт: зріст = 17 см, маса = 18 гр. 
+Інформація про тварину №03: Кіт: зріст = 40 см, маса = 124 гр. 
+Інформація про тварину №04: Свиня: зріст = 25 см, маса = 16 гр.
+Інформація про тварину №05: Собака: зріст = 32 см, маса = 106 гр.
+
+-Як бачимо тепер замість 10 інформацій про тварин, лише 5. Це свідчить про те, що код вдалося змінити.
+
+
+2.6. Виконати зміни в Makefile
+
+
+-Потрібно повернутися до каталогу lab00 і відкрити Makefile, щоб прописати нову команду all:
+cd ..
+nano Makefile
+-Після того як прописали виконати цю команду і виконати зміни в Makefile так, щоб файл test.bin не створювався:
+make all
+
+CC = clang
+LAB_OPTS = -I./src src/lib.c
+C_OPTS = -std=gnu11 -g -Wall -Wextra -Werror -Wformat-security -Wfloat-equal -Wshadow -Wconversion -Wlogical-not-parentheses -Wnull-d> 
+
+clean: rm -rf dist 
+
+prep: mkdir dist
+
+compile: main.bin test.bin
+ 
+main.bin: src/main.c $(CC) $(C_OPTS) $< -o ./dist/$@ 
+
+test.bin: test/test.c $(CC) $(C_OPTS) $< -o ./dist/$@ test: clean prep compile ./dist/test.bin 
+
+run: clean prep compile ./dist/main.bin doxygen: doxygen Doxyfile
+
+check: clang-format --verbose -dry-run --Werror src/* test/* cppcheck --enable=all --inconclusive --addon=cert --error-exitcode=1 -v --suppress=unreadVariable:*/main.c --suppress=knownC> 
+
+all: clean prep compile check 
+
+# TODO: clang-tidy; scan-build
+
+
+2.7. Визначити поточну версію clang та make
+
+
+Для цього потрібно використати команду apt show:
+apt show clang
+apt show make
+clang -  Version: 1:10.0-50~exp1
+make -  Version: 4.2.1-1.2
+
+2.8. Дослідити роботу утиліти man
+
+Інформацію про цю утиліту можна дізнатися, якщо прописати в терміналі:
+man man
+man - це пейджер довідкових сторінок системи. Кожен параметр сторінка, переданий man, зазвичай є назвою програми, утиліти або функції. По кожному з цих параметрів виконується пошук і висновок пов'язаної з ним довідкової сторінки. Якщо вказано параметр розділ, то це змушує man виконувати пошук тільки в цьому довідковому розділі. дією по замовчуванням є пошук у всіх доступних розділах в заздалегідь певному порядку (дивіться DEFAULTS) і показ тільки першій знайденої сторінки, навіть якщо існують сторінки в декількох розділах.
+
+       У таблиці нижче показані номери довідкових розділів і опис їх вмісту.
+
+       1. Виконувані програми або команди оболонки (shell)
+       2. Системні виклики (функції, що надаються ядром)
+       3.Бібліотечні виклики (функції, що надаються програмними бібліотеками)
+       4. Спеціальні файли (зазвичай знаходяться в каталозі / dev)
+       5. Формати файлів і угоди, наприклад о / etc / passwd
+       6. Ігри
+       7. Різне (включає пакети макросів і угоди), наприклад man (7), groff (7)
+       8.Команди адміністрування системи (зазвичай, запускаються тільки суперкористувачем)
+       9. Процедури ядра 
+
+
+2.9. Показ змін у файлах
+
+
+Для цього модна використати команду git diff
+
+diff --git a/lab00/Makefile b/lab00/Makefile
+ index 088755f..eff6dda 100644
+ --- a/lab00/Makefile 
++++ b/lab00/Makefile 
+@@ -6,7 +6,7 @@ clean: rm -rf dist 
+prep: mkdir dist 
+
+-compile: main.bin test.bin 
++compile: main.bin main.bin: src/main.c $(CC) $(C_OPTS) $< -o ./dist/$@
+ @@ -21,5 +21,6 @@ doxygen: 
+check: clang-format --verbose -dry-run --Werror src/* test/* cppcheck --enable=all --inconclusive --addon=cert --error-exitcode=1 -v --suppress=unreadVariable:*/main.c --suppress=knownConditionTrueFalse:*/main.c --suppress=missingIncludeSystem --check-config --suppress=*:*/test.c --suppress=unmatchedSuppression:*/main.c .
++all: clean prep compile check
+
+ # TODO: clang-tidy; scan-build diff --git a/lab00/src/lib.h b/lab00/src/lib.h 
+index 0fe857b..e2a5e37 100644
+ --- a/lab00/src/lib.h
+ +++ b/lab00/src/lib.h
+ @@ -19,7 +19,7 @@ 
+/** * Кількість тварин у масиві 
+*/
+ -#define ANIMAL_COUNT 10
+ +#define ANIMAL_COUNT 5
+ /** ESCOD
+
+
+
+
+Висновки
+
+
+При виконанні даної роботи було встановлено VirtualBox та Linux Lite, завантажено та оновлено програмні пакети. Також я ознайомилась з утилітами та функціями, навчилась використовувати їх на практиці в терміналі.
