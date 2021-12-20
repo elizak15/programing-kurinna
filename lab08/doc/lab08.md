@@ -87,7 +87,7 @@ void matrix(int n1, int array[n1][n1], int array2[n1][n1]);
 int main()
 
 ```
-
+![Поля структури main](assets/1.png)
 *Призначення*: головна функція.
 
 *Опис роботи*:
